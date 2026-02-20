@@ -6,6 +6,12 @@ Features:
 - Custom greetings with --name flag
 - Multiple language support (en, fr, es, de, ja) with --lang flag
 - Optional timestamp display with --time flag
+
+Usage:
+    python hello.py                    # Default: Hello, World!
+    python hello.py --name Alice      # Hello, Alice!
+    python hello.py --name Bob --lang fr  # Bonjour, Bob!
+    python hello.py --name Carol --time   # Hello, Carol! [timestamp]
 """
 
 import argparse
@@ -69,4 +75,3 @@ Supported languages: en (English), fr (French), es (Spanish), de (German), ja (J
 
 if __name__ == "__main__":
     main()
-# Updated by Athena via SSH
